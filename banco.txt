@@ -1,0 +1,11 @@
+create database sistema_login;
+use sistema_login;
+
+create table usuario(
+    id int primary key auto_increment,
+    login varchar(100),
+    senha varchar(60)
+);
+================================
+npm uninstall bcrypt 
+npm i bcryptjs
